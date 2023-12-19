@@ -56,7 +56,7 @@ class Employee:
             self._department_id = department_id
         else:
             raise ValueError(
-                "department_id must reference a department in the database")
+                "department_id must reference a department in the database.")
 
     @classmethod
     def create_table(cls):
